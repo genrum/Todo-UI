@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO list</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="high-priority">
+            <h2 class="high">HIGH</h2>
+            <div class="add-task">
+                <label for="add-task"></label>
+                <input type="text" id="add-task" class="input-task-create" placeholder="Добавить важных дел">
+                <button type="button" class="button">+</button>
+            </div>
+            <div class="task">
+                <input type="checkbox" id="checkbox1" class="status">
+                <label for="checkbox1" class="task-text">Вот вам и супер интересная тема. 
+                    Вы наверняка заметили что ваши файлы с кодом становятся все объемнее, что хочется вынести некоторые вещи куда-то за пределы основной программы.</label>
+                <button type="button" class="button remove-task">+</button>
+            </div>
+            <div class="task">
+                <input type="checkbox" class="status">
+                <label for="checkbox2">Сверстать этот TODO list</label>
+                <button type="button" class="button remove-task">+</button>
+            </div>
+            <div class="task">
+                <input type="checkbox" class="status">
+                <label for="checkbox3">Начать делать задачу</label>
+                <button type="button" class="button remove-task">+</button>
+            </div>
+        </div>
+        <div class="low-priority">
+            <h2 class="low">LOW</h2>
+            <div class="add-task">
+                <input type="text" id="add-task" class="input-task-create" placeholder="Добавить неважных дел">
+                <button type="button" class="button">+</button>
+            </div>
+            <div class="task">
+                <input type="checkbox" class="status">
+                <label for="checkbox4">Посмотреть ютубчик</label>
+                <button type="button" class="button remove-task">+</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
