@@ -25,11 +25,11 @@
     width: 476px;
     padding: 25px 8px;
     border: 2px solid blue;
-    background: #ffffff
+    background: #ffffff;
+    margin: auto; 
   }
   
   body {
-    margin-left: 25%;
     background: #E5E5E5;
   }
   
@@ -56,7 +56,4 @@
     transform: rotate(45deg);
   }
   
-  .status {
-    
-  }
   
